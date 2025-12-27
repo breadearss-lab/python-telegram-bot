@@ -2,7 +2,7 @@ import os
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext
 
-TOKEN = os.getenv("8298962474:AAGHuIWD8SWJ95YT6s_Ey5stiUOthfLltxQ")
+TOKEN = os.getenv("AAGHuIWD8SWJ95YT6s_Ey5stiUOthfLltxQ")
 
 async def start(update: Update, context: CallbackContext):
     await update.message.reply_text('Привет! Я работаю на Railway!')
